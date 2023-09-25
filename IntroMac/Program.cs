@@ -1,10 +1,14 @@
-﻿namespace IntroMac
+﻿namespace ArithmeticExercises
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            Console.WriteLine("Hello, Mac users");
+            ArithmeticExercises.CircleCircumference(5);
+            ArithmeticExercises.CircleArea(5);
+            ArithmeticExercises.Division(10, 3);
+            ArithmeticExercises.CalculateHypotenouse(10, 3);
+            ArithmeticExercises.GetBooksDistribution();
         }
     }
 }
